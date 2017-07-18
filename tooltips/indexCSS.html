@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style type="text/css">
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #b3c9ce;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+<p></p>
+<div  class="tooltip">подсказка длиннее, чем элемент< b r>подсказка длиннее, чем элемент <span class="tooltiptext">подсказка длиннее, чем элемент<br>подсказка длиннее, чем элемент</span></div>
+<p></p>
+<div>No tooltip</div>
+<p></p>
+<div  class="tooltip">подсказка длиннее, чем элемент 1c<span class="tooltiptext">подсказка длиннее, чем элемент 1c</span></div>
+<p></p>
+<div  class="tooltip">Tooltip empty 2s delay</div>
+<p></p>
+<div  class="tooltip">HTML< b r>подсказка<span class="tooltiptext">HTML<br>подсказка</span></div>
+<p></p>
+<button  class="tooltip">Hover me!<span class="tooltiptext">"Whats up!"</span></button>
+
+
+  <p>Прокрутите страницу, чтобы ссылки были вверху и проверьте, правильно ли показываются подсказки.</p>
+
+
+</body>
+
+</html>
