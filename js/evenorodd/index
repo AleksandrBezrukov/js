@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Чет\нечет</title>
+	<script src="evenorodd.js"></script>
+</head>
+<body>
+<!--
+<script type="text/javascript">
+	function evenorodd(pnumber)
+{
+	var result;
+	if(pnumber%2==0) result="Even";
+		else result="Odd";
+		console.log(result);
+}
+</script>
+-->
+	<input type="text" id="InputField"/>
+    <p>
+    <input type="button" value="CheckOdd" onclick="evenorodd(InputField.value)"/>
+
+</body>
+</html>
